@@ -1,0 +1,49 @@
+<img src="/assets/img/mouth.png" alt="">
+
+
+
+<h1>Feed Me!</h1>
+<div class="row">
+    <div class="left-side column">
+        <h2>Burgers available to eat:</h2>
+
+        <ul>
+        {{#each burgers}}
+            {{#unless devoured}}
+            <li>
+                <textarea readonly>{{id}}: {{burger_name}}</textarea>
+                <button class="devour-btn" data-id="{{id}}">
+                    Eat
+                </button>
+            </li>
+            {{/unless}}
+        {{/each}}
+        </ul>
+    </div>
+
+
+    <div class="right-side column">
+        <h2>Burgers consumed:</h2>
+
+        <ul>
+        {{#each burgers}}
+            {{#if devoured}}
+            <li>
+                <textarea readonly>{{id}}: {{burger_name}}</textarea>
+            </li>
+            {{/if}}
+        {{/each}}
+        </ul>
+    </div>
+</div>
+
+
+<h2>Add a Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <input type="text" id="ca" name="name" class="burger-box">
+  </div>
+
+  <button type="submit" class="btn btn-warning">Submit</button>
+</form>
