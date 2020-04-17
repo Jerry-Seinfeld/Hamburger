@@ -1,6 +1,6 @@
 # Hamburger
 Have you ever wanted to manage a local MySQL database of Burgers? Probably not.
-This application fufills youe dreams you never thought existed!
+This application fulfills your dreams you never thought existed!
 
 # instructions
 1. Run the command "node server.js"
