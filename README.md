@@ -9,4 +9,7 @@ This application fufills youe dreams you never thought existed!
 4. In the "Burgers available to eat box" click "eat" to eat the burger.
 5. Then, observe the sad amount of burgers you've consumed in the "Burgers consumed tab".
 
+# Notes
+Getting and application error when I open the heroku application in the browser.
+
 ![Image](Screenshot.png)
