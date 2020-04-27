@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rfilkin/13-BurgerLogger.git"
+    "url": "https://github.com/Jerry-Seinfeld/Hamburger"
   },
   "author": "Robert Filkin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rfilkin/13-BurgerLogger/issues"
+    "url": "https://github.com/Jerry-Seinfeld/Hamburger"
   },
-  "homepage": "https://github.com/rfilkin/13-BurgerLogger#readme",
+  "homepage": "https://github.com/Jerry-Seinfeld/Hamburger",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.3",
